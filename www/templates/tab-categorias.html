@@ -1,0 +1,15 @@
+<!-- Desenvolvido por Mateus Almeida: mateusdarosadealmeida@gmail.com-->
+<ion-view view-title="Alimentos">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="categoria in categorias" type="item-text-wrap" href="#/tab/categorias/{{categoria.id}}">
+        <img ng-src="{{categoria.foto}}">
+        <h2>{{categoria.nome}}</h2>
+        <p>{{categoria.texto}}</p>
+        <p>{{categoria.texto2}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

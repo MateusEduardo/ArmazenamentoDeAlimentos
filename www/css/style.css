@@ -1,0 +1,21 @@
+/*Desenvolvido por Mateus Almeida: mateusdarosadealmeida@gmail.com*/
+.titulo {
+	text-align: center;
+
+}
+.conteudoReferencias {
+	padding-left: 10px;
+	font-family: sans-serif;
+}
+
+.mateus {
+	text-align: center;
+	/*Você deve estar se perguntando, por que ele deixou aqui separado se dava para usar o .titulo ou então só por um
+	style lá no html?
+	Te respondo:
+	Por que sim*/
+}
+
+.social {
+	text-align: center;
+}

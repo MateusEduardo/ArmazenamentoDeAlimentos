@@ -1,0 +1,11 @@
+{
+  "name": "Armazenamento de Alimentos",
+  "short_name": "Armazenamento de Alimentos",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "icon.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}

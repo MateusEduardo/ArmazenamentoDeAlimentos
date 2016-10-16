@@ -1,0 +1,58 @@
+<!-- Desenvolvido por Mateus Almeida: mateusdarosadealmeida@gmail.com-->
+<ion-view view-title="{{ali.nome}}">
+  <ion-content>
+  		<div class="list card">
+	        <h1 class="titulo">{{ali.nome}}</h1>
+	  		<div class="item item-body">
+	    		<img class="full-image" src="{{ali.foto}}">
+			    <h3>
+			    	COMO ARMAZENAR?
+			    </h3>
+				<p>
+					<b>Congelamento:</b>
+				</p> 
+				<p>
+					{{ali.congelamento}}
+				</p>
+				<div ng-if="!!ali.armazenamentoNatural">
+					<p>
+						<b>Armazenamento ao Natural:</b>
+					</p>
+					<p>
+						 {{ali.armazenamentoNatural}}
+					</p>
+				</div>
+
+				<p ng-if="!!ali.extra1">
+					{{ali.extra1}}
+				</p>
+				<p ng-if="!!ali.extra2">
+					{{ali.extra2}}
+				</p>
+				<p ng-if="!!ali.extra3">
+					{{ali.extra3}}
+				</p>
+				<p ng-if="!!ali.extra4">
+					{{ali.extra4}}
+				</p>
+				<p ng-if="!!ali.extra5">
+					{{ali.extra5}}
+				</p>
+
+				<div ng-if="!!ali.resfriamento">
+					<p>
+						<b>Resfriamento:</b>
+					</p>
+					<p>
+						{{ali.resfriamento}}
+					</p>
+				</div>
+				
+				<p>
+					Imagem: {{ali.link}}
+				</p>
+			</div>
+		</div>
+
+  </ion-content>
+</ion-view>
